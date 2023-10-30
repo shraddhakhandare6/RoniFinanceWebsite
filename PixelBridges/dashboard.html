@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  
+        <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+        <link rel="stylesheet" href="dashboard.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+        </script>
+    </head>
+    <title>Dashboard</title>
+<body style="background-color: #191919;"> 
+    <header>
+        <nav class="n">
+            <div class="c">
+                <div class="logo" id="div-logo">
+                   <img src="img/RLogo.png" height="30px" width="30px" alt="Logo" id="photo">
+                    <span class="lg">Romi Finance</span>
+                </div>
+                <ul class="n-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Dashboard</a></li>
+                    <li class="drpwn">
+                        <a href="#">NFT ▾</a>
+                        <div class="drpwn-content">
+                            <a href="#">Mint NFT</a>
+                            <a href="#">Stake NFT</a>
+                        </div>
+                    </li>
+                    <li><a href="#">Earn</a></li>
+                    <li><a href="#">Buy</a></li>
+                    <li><a href="#">Referrals</a></li>
+                    <li><a href="#">Ecosystem</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+                <div class="btns">
+                    <button class="teal-btns">Trade</button>
+                    <button class="white-border-btns">Connect Wallet</button>
+                    <div class="drpwn">
+                        <button class="drpwn-button">Ethereum ▾</button>
+                        <div class="drpwn-content">
+                            <a href="#">Ethereum</a>
+                            <a href="#">Settings</a>
+                            <a href="#">Language</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+            <div id="d-head">
+                <b id="b">Stats</b>
+                <img src="img/token.png" id="token"> 
+            </div>
+            <div id="token-p">
+                <p>
+                    Ethereum Total Stats start from 06 Jan 2022.<br>
+                    For detailed stats:
+                </p>
+            </div>
+            <div class="row">
+            
+                <div class="col">
+                    <div class="card1" class="card text-white  mb-3" style="max-width: 38rem;">
+                        <div class="card-header">Total Stats</div>
+                        <div class="card-body">
+                          <p class="card-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">AUM</div> <div class="col text-end" class="tooltip" >$34
+                                        <!-- <span class="tooltiptext">Assets Under Management: $ZOMI staked (All chains) + $ZLP pool (Ethereum)
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">$ZLP Pool</div> <div class="col text-end"class="tooltip">$34
+                                        <!-- <span class="tooltiptext">Total value of tokens in $ZLP pool (Ethereum)
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">24h Volume</div> <div class="col text-end"class="tooltip">$0
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Long Positions</div> <div class="col text-end"class="tooltip">$0
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">Short Positions</div> <div class="col text-end"class="tooltip">$0
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+                <div class="col">
+                    <div class="card1" class="card text-white  mb-3" style="max-width: 38rem; max-height: 20rem;">
+                        <div class="card-header">Total Stats</div>
+                        <div class="card-body">
+                          <p class="card-text">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col">AUM</div> <div class="col text-end" class="tooltip" >$34
+                                        <!-- <span class="tooltiptext">Assets Under Management: $ZOMI staked (All chains) + $ZLP pool (Ethereum)
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">$ZLP Pool</div> <div class="col text-end"class="tooltip">$34
+                                        <!-- <span class="tooltiptext">Total value of tokens in $ZLP pool (Ethereum)
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col">24h Volume</div> <div class="col text-end"class="tooltip">$0
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col">  </div> <div class="col text-end"class="tooltip">&nbsp;&nbsp;
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                                <div class="row">
+                                <div class="col">  </div> <div class="col text-end"class="tooltip">&nbsp;&nbsp;
+                                        <!-- <span class="tooltiptext">{title} on Ethereum:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0<hr>
+                                            Total:&nbsp;&nbsp;&nbsp;&nbsp;
+                                            $0
+                                        </span> -->
+                                    </div>
+                                </div>
+                               
+                            </div>
+                          </p>
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+           
+        </div>
+       
+        <div id="d-head1">
+            <b id="b1">Tokens</b>
+            <img src="img/token.png" id="token"> 
+        </div>
+        <div id="token-p1">
+            <p>
+                Platform and $ZLP index tokens.
+            </p>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="card2-2" class="card text-white bg-dark mb-3" style="max-width: 38rem;">
+                    <div class="card-header">
+                        <ul class="n-links">
+                            <li class="drpwn" style="margin-left: -25rem;">
+                                <img src="img/data1.png" width="50px" height="50px">
+                                <span>$ZOMI ▾</span>
+                                <div class="drpwn-content">
+                                    <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                    <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                                </div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8" >
+                            <div class="row" >
+                                <div class="col" style="margin-left: 30px;">
+                                    <div class="row">Price</div>
+                                    <div class="row">Supply</div>
+                                    <div class="row">Total Staked</div>
+                                    <div class="row">Market Cap</div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="row">$0.00</div>
+                                    <div class="row">10,000 $ZOMI</div>
+                                    <div class="row">$0</div>
+                                    <div class="row">$10</div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="col-4" id="#d-margin">
+                        <img src="img/distribution.png" alt="94% in liquidity" height="150px"width="150px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card2-2" class="card text-white bg-dark mb-3" style="max-width: 38rem;">
+                    <div class="card-header">
+                        <ul class="n-links">
+                            <li class="drpwn" style="margin-left: -25rem;">
+                                <img src="img/data.png" width="50px" height="50px">
+                                <span>$ZLP ▾</span>
+                                <div class="drpwn-content">
+                                    <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                    <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                                </div>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="col-8" >
+                            <div class="row" >
+                                <div class="col" style="margin-left: 30px;">
+                                    <div class="row">Price</div>
+                                    <div class="row">Supply</div>
+                                    <div class="row">Total Staked</div>
+                                    <div class="row">Market Cap</div>
+                                    <div class="row">Stablecoin Percentage</div>
+                                </div>
+                                <div class="col">
+                                    <div class="row">$1.149</div>
+                                    <div class="row">29 $ZLP</div>
+                                    <div class="row">$34</div>
+                                    <div class="row">$34</div>
+                                    <div class="row">49.50%</div>
+                                </div>
+                            </div>
+                           
+                        </div>
+                        <div class="col-4" id="#d-margin">
+                        <img src="img/zpool.png" alt="94% in liquidity" height="150px"width="150px">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </div>
+    <div>
+        <div class="card3" class="card text-white bg-dark mb-3" style="max-width: 100rem;">
+            <div class="card-header">$ZLP Index CompositionAvalanche</div>
+            <div class="card-body">
+                <div class="row" style="margin-top: 10px;">
+                <div class="col-4">TOKEN</div>
+                <div class="col-2">	PRICE</div>
+                <div class="col-1">	POOL</div>
+                <div class="col-4">	WEIGHT</div>
+                <div class="col-1">UTILIZATION</div>
+             </div>
+             <div class="row" style="margin-top: 40px;">
+                <div class="col-4">            
+                    <ul class="n-links">
+                        <li class="drpwn" style="margin-left: -15rem;">
+                            <img src="img/eth.png" width="35px" height="30px">
+                            <span>Ethereum▾</span>
+                            <div class="drpwn-content">
+                                <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">$1,817.69</div>
+                <div class="col-1">$19</div>
+                <div class="col-4">50.49% / 25.00%</div>
+                <div class="col-1">0.00%</div>
+             </div>
+             <div class="row" style="margin-top: 40px;">
+                <div class="col-4">
+                    <ul class="n-links">
+                        <li class="drpwn" style="margin-left: -12rem;">
+                            <img src="img/wraped.png" width="30px" height="30px">
+                            <span>Wrapped Bitcoin▾</span>
+                            <div class="drpwn-content">
+                                <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">$34,679.38</div>
+                <div class="col-1">$0</div>
+                <div class="col-4">	0.00% / 25.00%</div>
+                <div class="col-1">0.00%</div>
+             </div>
+             <div class="row" style="margin-top: 40px;">
+                <div class="col-4">
+                    <ul class="n-links">
+                        <li class="drpwn" style="margin-left: -15.5rem;">
+                            <img src="img/apecoin.png" width="30px" height="30px">
+                            <span>ApeCoin▾</span>
+                            <div class="drpwn-content">
+                                <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">$1.37</div>
+                <div class="col-1">	$0</div>
+                <div class="col-4">0.00% / 25.00%</div>
+                <div class="col-1">0.00%</div>
+             </div>
+             <div class="row" style="margin-top: 40px;margin-bottom: 30px;">
+                <div class="col-4">
+                    <ul class="n-links">
+                        <li class="drpwn" style="margin-left: -15rem;">
+                            <img src="img/usdcoin.png" width="30px" height="30px">
+                            <span>USD Coin▾</span>
+                            <div class="drpwn-content">
+                                <a href="https://www.coingecko.com/en/coins/gmx">Open in Coingecko</a>
+                                <a href="https://etherscan.io/address/0xDc2C540Fd99eb5dC424095C8C6A63f7c805D46e9">Open in Explore</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2">$1.00</div>
+                <div class="col-1">$14</div>
+                <div class="col-4">49.50% / 25.00%</div>
+                <div class="col-1">0.00%</div>
+             </div>
+             
+            </div>
+          </div>
+    </div>
+    <footer style="border-top: 1px solid rgb(55, 55, 55);margin-top: 20px;">
+        <h1 style="display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ccc;
+        font-size: 30px;
+        margin-top: 30px;
+        font-family: 'Michroma', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Rubik', sans-serif;">
+          <div class="logo" id="div-logo">
+            <img src="img/RLogo.png" height="30px" width="30px" alt="Logo" id="photo">
+             <span class="lg">Romi Finance</span>
+         </div>
+        </h1>
+        <div id="footer">
+          <a href="#" class="social-links"><i class="fa-brands fa-twitter" ></i></a>
+          <a href="#" class="social-links"><i class="fa-solid fa-m"></i></a>
+          <a href="#" class="social-links"><i class="fa-brands fa-github"></i></a>
+          <a href="#" class="social-links"><i class="fa-brands fa-telegram"></i></a>
+          <a href="#" class="social-links"><i class="fa-brands fa-discord"></i></a>
+        </div>
+        <div id="terms">
+          <p class="p3">Terms and Conditions &nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p class="p3">Referral Terms&nbsp;&nbsp;&nbsp;&nbsp;</p>
+          <p class="p3">Media Kit</p>          
+        </div>
+      
+      </footer>
+</body>
+</html>

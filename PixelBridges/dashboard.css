@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Michroma&family=Nunito&family=Rubik&display=swap');
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Michroma&family=Nunito:wght@400;700&family=Rubik&display=swap'); */
+
+/* Reset some default styles and set up basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #191919;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the navigation bar */
+/* header{
+    top:0;
+    margin-top: -4rem;
+    position: fixed;
+} */
+.n {
+    background-color: #191919;
+    color: #fff;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.n{
+    box-shadow: -10px 10px 10px rgba(0,0,0,0.2);
+}
+
+.c {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+#photo{
+    padding: 2px;
+}
+
+.logo {
+    font-size: 25px;
+    align-items: center;
+    font-family: 'Michroma', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.n-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:1px;
+   margin-bottom: 1px;
+   font-family: sans-serif;
+
+}
+
+.n-links li {
+    margin: 0 10px;
+}
+
+.n-links a {
+    text-decoration: none;
+    color: #ccccccc5;
+    transition: color 0.3s; /* Add transition for smoother hover effect */
+}
+
+/* drpwn styles */
+.drpwn {
+    position: relative;
+}
+
+.drpwn-content {
+    display: none;
+    position: absolute;
+    background-color: #191919;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.drpwn-content a {
+    color: #fff;
+    padding: 12px 0px 10px 10px;
+    font-size: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.drpwn:hover .drpwn-content {
+    display: block;
+}
+
+.btns {
+    height: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: small;
+    font-family: sans-serif;
+
+}
+
+.teal-btns, .white-border-btns, .drpwn-button {
+    height: 38px;
+    padding: 9px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #ccc;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.teal-btns {
+    background-color: #3eb489;
+    color: white;
+    font-weight: lighter;
+}
+.teal-btns:hover{
+    background-color: #207a59;
+    color: white;
+}
+.white-border-btns,.drpwn-button {
+    background:transparent;
+    border: 1px solid #fff;
+    font-weight: lighter;
+}
+
+.white-border-btns:hover, .drpwn-button:hover {
+    background-color: #444;
+}
+
+/* Add hover effect for links in the navigation */
+.n-links a:hover {
+    color: #fff;
+}
+
+#token{
+    height: 30px;
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 10px;
+    display: inline;
+}
+#d-head{
+    margin-top: 60px;
+    /* margin-left: 30px; */
+    display: flex;
+    color: white;
+    font-size: 40px;
+}
+#token-p{
+    color: white;
+    font-size: 15px;
+    /* margin-left: 30px; */
+
+}
+.card1{
+    background:transparent;
+    background-color:#141414;
+    color: white;
+    border: 1px solid rgb(55, 55, 55);
+}
+.card2{
+    margin-left: 30px;
+    margin-right: 30px;
+    background:transparent;
+    background-color: #141414;
+    color: white;
+    border: 1px solid rgb(55, 55, 55);
+}
+.card2-2{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background:transparent;
+    background-color: #141414;
+    color: white;
+    border: 1px solid rgb(55, 55, 55);
+
+}
+.card3{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background:transparent;
+    background-color: #141414;
+    color: white;
+    border: 1px solid rgb(55, 55, 55);
+ 
+}
+.card-body{
+    border: 1px solid rgb(55, 55, 55);
+}
+
+/* Tooltip container */
+/* .tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: help;
+} */
+
+/* Tooltip text (hidden by default) */
+/* .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: #333;
+    color: #fff;
+    text-align: left;
+    border-radius: 5px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;  */
+    /* Position the tooltip above the text */
+    /* left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+} */
+
+/* Show the tooltip on hover */
+/* .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+} */
+#d-head1{
+    margin-top: 60px;
+    margin-left: 30px;
+    display: flex;
+    color: white;
+    font-size: 40px;
+}
+#token-p1{
+    color: white;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+/* footer */
+.social-links{
+    text-decoration: none;
+    color:  rgb(171, 171, 171);
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin-left: 60px;
+}
+.social-links:hover{
+    color: white;
+}
+#footer{
+    margin-top: 50px;
+    margin-left: 23rem;
+    margin-right: 23rem;
+}
+.p3{
+    display: inline;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+}
+#terms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#token-p2{
+    color: white;
+    font-size: 10px;
+}
